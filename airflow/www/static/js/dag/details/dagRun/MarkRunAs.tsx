@@ -137,10 +137,10 @@ const MarkRunAs = ({ runId, state, ...otherProps }: Props) => {
           {...otherProps}
           mt={2}
         >
-          <Flex>
+{/*           <Flex>
             Mark state as...
             <MdArrowDropDown size="16px" />
-          </Flex>
+          </Flex> */}
         </MenuButton>
         <MenuList>
           <MenuItem onClick={markAsFailed} isDisabled={state === "failed"}>
